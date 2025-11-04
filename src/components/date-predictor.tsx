@@ -72,9 +72,9 @@ export function DatePredictor() {
   }
 
   return (
-    <Card className="bg-card/50 backdrop-blur-sm border-primary/20">
+    <Card className="bg-card/50 backdrop-blur-sm border-primary/20 h-full">
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)}>
+        <form onSubmit={form.handleSubmit(onSubmit)} className="h-full flex flex-col">
           <CardHeader>
             <CardTitle className="font-headline text-primary">AI Prediction Assistant</CardTitle>
             <CardDescription>Leverage AI to assist with your Day of Death predictions.</CardDescription>
@@ -143,8 +143,8 @@ export function DatePredictor() {
               />
             </div>
           </CardContent>
-          <CardFooter className="flex-col items-stretch space-y-4">
-             <Button type="submit" disabled={isLoading} className="pulse-light-border">
+          <CardFooter className="flex-col items-stretch space-y-4 mt-auto">
+             <Button type="submit" disabled={isLoading} className="w-full pulse-light-border">
               {isLoading ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />

@@ -4,6 +4,7 @@ import { DatePredictor } from '@/components/date-predictor';
 import { DivinationCounter } from '@/components/divination-counter';
 import { Kiosk } from '@/components/kiosk';
 import { MortalityMarket } from '@/components/mortality-market';
+import { ProjectValuation } from '@/components/project-valuation';
 import { SpinWheel } from '@/components/spin-wheel';
 import { Separator } from '@/components/ui/separator';
 
@@ -85,9 +86,15 @@ export default function Home() {
 
       <Separator className="my-12 bg-primary/50" />
 
-      <section className="my-12">
-        <h2 className="font-headline text-3xl text-glow uppercase text-center mb-8">AI Date Prediction Assistant</h2>
-        <DatePredictor />
+      <section className="grid md:grid-cols-2 gap-8 my-12">
+        <div>
+          <h2 className="font-headline text-3xl text-glow uppercase text-center mb-8">AI Date Prediction</h2>
+          <DatePredictor />
+        </div>
+        <div>
+          <h2 className="font-headline text-3xl text-glow uppercase text-center mb-8">AI Project Valuation</h2>
+          <ProjectValuation />
+        </div>
       </section>
 
       <footer className="text-center text-muted-foreground mt-16 pb-8">

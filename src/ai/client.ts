@@ -10,6 +10,11 @@ import {
   type PersonalizedDayOfDeathInput,
   type PersonalizedDayOfDeathOutput
 } from '@/ai/flows/personalized-day-of-death';
+import { 
+  getProjectValuation, 
+  type ProjectValuationInput, 
+  type ProjectValuationOutput 
+} from './flows/project-valuation';
 
 export async function runGetPersonalizedDayOfDeath(
   input: PersonalizedDayOfDeathInput
@@ -23,4 +28,10 @@ export async function runAssistDatePrediction(
 ): Promise<AssistDatePredictionOutput> {
   // The Genkit flow is a server action, so we can call it directly from the client.
   return assistDatePrediction(input);
+}
+
+export async function runGetProjectValuation(
+  input: ProjectValuationInput
+): Promise<ProjectValuationOutput> {
+  return getProjectValuation(input);
 }
