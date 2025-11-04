@@ -10,9 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
-        code: ['monospace'],
+        body: ['"Share Tech Mono"', 'monospace'],
+        headline: ['Orbitron', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -88,10 +87,19 @@ export default {
             height: '0',
           },
         },
+        'pulse-light-border-animation': {
+          '0%, 100%': {
+            boxShadow: '0 0 2px hsl(var(--primary)), inset 0 0 2px hsl(var(--primary))',
+          },
+          '50%': {
+            boxShadow: '0 0 5px hsl(var(--primary)), inset 0 0 5px hsl(var(--primary))',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'pulse-light-border': 'pulse-light-border-animation 3s infinite',
       },
     },
   },
