@@ -26,26 +26,26 @@ export default function Home() {
               <SpinWheel
                 title="The Life Airdrop"
                 prizes={[
-                  { text: "1 AGT Coin" },
-                  { text: "5 AGT Coins" },
-                  { text: "10% AGT Discount" },
+                  { text: "1 AGT" },
+                  { text: "5 S96t'" },
+                  { text: "10 BTCYT" },
                   { text: "Try Again" },
-                  { text: "2 AGT Coins" },
+                  { text: "2 BTC" },
                   { text: "Spin Again" },
-                  { text: "1% AGT Discount" },
-                  { text: "Jackpot! 5% Discount" },
+                  { text: "1 GTPS" },
+                  { text: "Jackpot! 5 GIRG" },
                 ]}
               />
               <SpinWheel
                 title="The Riddle Game"
                 prizes={[
-                  { text: "1 Free GIRG Game" },
+                  { text: "1 GIRG" },
                   { text: "Try Again" },
-                  { text: "1 bitcoinayt" },
+                  { text: "1 BTCYT" },
                   { text: "Better Luck Next Time" },
-                  { text: "1 Free GIRG Game" },
+                  { text: "1 AGT" },
                   { text: "Spin Again" },
-                  { text: "1 bitcoinayt" },
+                  { text: "1 S96t'" },
                   { text: "So Close!" },
                 ]}
               />
