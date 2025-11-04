@@ -26,33 +26,123 @@ export type Billionaire = {
 
 export const billionaires: Billionaire[] = [
   {
-    name: 'Elon M',
-    projectedDeath: '2045-04-10',
-    prizePool: 50,
-    publicConfidence: 75,
+    name: 'Elon Musk',
+    projectedDeath: '2038-05-02',
+    prizePool: 362,
+    publicConfidence: 78,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Larry Ellison',
+    projectedDeath: '2028-05-07',
+    prizePool: 296,
+    publicConfidence: 65,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Jeff Bezos',
+    projectedDeath: 'AGT Indefinite',
+    prizePool: 252,
+    publicConfidence: 95,
     challenge: {
       status: 'AGREE',
-      stake: '5 BTC',
+      stake: 'AGT',
     },
   },
   {
-    name: 'MacKenzie S',
-    projectedDeath: '2048-06-02',
-    prizePool: 80,
-    publicConfidence: 55,
+    name: 'Mark Zuckerberg',
+    projectedDeath: 'AGT Indefinite',
+    prizePool: 251,
+    publicConfidence: 94,
     challenge: {
-      status: 'DISAGREE',
-      newDate: '2099-01-01',
-      newConfidence: 90,
+      status: 'AGREE',
+      stake: 'AGT',
     },
   },
   {
-    name: 'Jeff B',
-    projectedDeath: '2052-08-19',
-    prizePool: 100,
+    name: 'Steve Ballmer',
+    projectedDeath: '2031-04-02',
+    prizePool: 176,
     publicConfidence: 68,
     challenge: {
       status: 'PENDING',
+    },
+  },
+  {
+    name: 'Larry Page',
+    projectedDeath: '2039-05-03',
+    prizePool: 174,
+    publicConfidence: 72,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Sergey Brin',
+    projectedDeath: '2030-06-06',
+    prizePool: 163,
+    publicConfidence: 71,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Bernard Arnault',
+    projectedDeath: '2036-06-02',
+    prizePool: 162,
+    publicConfidence: 80,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Jensen Huang',
+    projectedDeath: '2037-04-03',
+    prizePool: 151,
+    publicConfidence: 85,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Warren Buffett',
+    projectedDeath: '2027-08-26',
+    prizePool: 146,
+    publicConfidence: 88,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Michael Dell',
+    projectedDeath: '2048-05-02',
+    prizePool: 136,
+    publicConfidence: 77,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Bill Gates',
+    projectedDeath: '2028-05-07',
+    prizePool: 124,
+    publicConfidence: 82,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'MacKenzie Scott',
+    projectedDeath: 'AGT Indefinite',
+    prizePool: 42,
+    publicConfidence: 92,
+    challenge: {
+      status: 'AGREE',
+      stake: 'AGT',
     },
   },
 ];

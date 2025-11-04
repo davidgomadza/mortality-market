@@ -45,6 +45,9 @@ export function SpinWheel({ title, prizes }: SpinWheelProps) {
       setResult(wonPrize.text);
       if (!wonPrize.text.toLowerCase().includes('try') && !wonPrize.text.toLowerCase().includes('close') && !wonPrize.text.toLowerCase().includes('next time')) {
         setIsWinModalOpen(true);
+        setTimeout(() => {
+          setIsWinModalOpen(false);
+        }, 3600);
       }
     }, 5000); // Corresponds to animation duration
   };

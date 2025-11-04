@@ -85,7 +85,10 @@ export function BillionaireWager() {
         <Card className="bg-card/50 backdrop-blur-sm border-primary/20">
           <CardHeader>
             <CardTitle className="font-headline text-primary">High-Stakes Wagers</CardTitle>
-            <CardDescription>Real-time list of influential billionaires in the game.</CardDescription>
+            <CardDescription>
+              Real-time list of influential billionaires in the game.
+              For main prize, check the correct Day of Death calculations in The Great Intelligence Riddle.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <Table>
