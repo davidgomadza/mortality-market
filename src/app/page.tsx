@@ -1,3 +1,4 @@
+import { AgtWallet } from '@/components/agt-wallet';
 import { BillionaireWager } from '@/components/billionaire-wager';
 import { DatePredictor } from '@/components/date-predictor';
 import { DivinationCounter } from '@/components/divination-counter';
@@ -18,7 +19,7 @@ export default function Home() {
         </p>
       </header>
 
-      <section className="grid grid-cols-1 lg:grid-cols-5 gap-8 my-12 items-center">
+      <section className="grid grid-cols-1 lg:grid-cols-5 gap-8 my-12 items-start">
         <div className="lg:col-span-2 flex flex-col items-center justify-center space-y-8">
             <h2 className="font-headline text-3xl text-glow uppercase text-center">Gates of Chance</h2>
             <div className="flex flex-col md:flex-row lg:flex-col gap-8 w-full items-center justify-around">
@@ -53,6 +54,13 @@ export default function Home() {
         <div className="lg:col-span-3">
           <DivinationCounter />
         </div>
+      </section>
+      
+      <Separator className="my-12 bg-primary/50" />
+
+      <section className="my-12">
+        <h2 className="font-headline text-3xl md:text-4xl text-glow uppercase text-center mb-8">AGT Wallet</h2>
+        <AgtWallet />
       </section>
 
       <Separator className="my-12 bg-primary/50" />
