@@ -55,4 +55,34 @@ export const billionaires: Billionaire[] = [
       status: 'PENDING',
     },
   },
+  {
+    name: 'Bernard A',
+    projectedDeath: '2042-12-25',
+    prizePool: 120,
+    publicConfidence: 82,
+    challenge: {
+      status: 'PENDING',
+    },
+  },
+  {
+    name: 'Larry E',
+    projectedDeath: '2060-09-15',
+    prizePool: 75,
+    publicConfidence: 60,
+    challenge: {
+      status: 'AGREE',
+      stake: '1000 ETH',
+    },
+  },
+  {
+    name: 'Mark Z',
+    projectedDeath: '2085-05-14',
+    prizePool: 200,
+    publicConfidence: 88,
+    challenge: {
+      status: 'DISAGREE',
+      newDate: '2100-01-01',
+      newConfidence: 95,
+    },
+  },
 ];
