@@ -207,7 +207,7 @@ export function DivinationCounter() {
                 </Button>
             )}
         </div>
-        <p className="text-sm text-muted-foreground">Cost: US$1 or 1 bitcoinayt</p>
+        <p className="text-sm text-muted-foreground">Cost: 1 BTCYT (bitcoinayt)</p>
       </CardFooter>
     </Card>
   );

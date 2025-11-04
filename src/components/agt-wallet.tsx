@@ -11,6 +11,8 @@ const walletTokens = [
   { name: 'BTCYT', balance: '37,867,890,284' },
   { name: 'BTC', balance: '37,867,890,284' },
   { name: 'GTPS', balance: '37,867,890,284' },
+  { name: 'GIRG', balance: '37,867,890,284' },
+  { name: 'bitcoinayt', balance: '37,867,890,284' },
 ];
 
 export function AgtWallet() {
